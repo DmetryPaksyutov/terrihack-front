@@ -1,0 +1,94 @@
+.candidate_card {
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 15px 0;
+  max-width: 500px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.candidate_card:hover {
+  transform: translateY(-5px);
+}
+
+/* Стили для блока с изображением и информацией */
+.candidate_header {
+  display: flex;
+  align-items: center;
+}
+
+.candidate_image {
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  margin-right: 15px;
+}
+
+.candidate_salary, .download_resume {
+  margin-top: 10px;
+}
+
+.salary_amount {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #333;
+}
+
+.download_resume a {
+  color: #1890ff;
+  text-decoration: none;
+}
+
+.download_resume a:hover {
+  text-decoration: underline;
+}
+
+.candidate_info h3 {
+  margin: 0;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+.candidate_info p {
+  margin: 5px 0;
+  color: #555;
+}
+
+/* Стили для навыков (skills) */
+.candidate_skills,
+.candidate_languages {
+  margin-top: 15px;
+}
+
+.candidate_skills h4,
+.candidate_languages h4 {
+  font-size: 1.1rem;
+  font-weight: bold;
+  margin-bottom: 8px;
+  color: #333;
+}
+
+.candidate_skills ul,
+.candidate_languages ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.candidate_skills li,
+.candidate_languages li {
+  background-color: #eef1f5;
+  border-radius: 4px;
+  padding: 5px 10px;
+  margin: 3px 0;
+  color: #555;
+}
+
+/* Стили для отображения пустых данных */
+.candidate_skills p,
+.candidate_languages p {
+  font-style: italic;
+  color: #888;
+}

@@ -1,0 +1,25 @@
+.page {
+    width: 100%;
+    max-width: 1000px;
+    margin: 20px auto 0 auto;
+    padding: 20px;
+}
+
+.header {
+    margin-bottom: 20px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.button {
+    width: 100%;
+    max-width: 200px;
+    height: 48px;
+    font-family: "Roboto", sans-serif;
+    margin-left: 20px;
+    font-size: 1.5rem;
+}

@@ -1,0 +1,145 @@
+.pricelist_container {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+
+.description {
+  height: 60px;
+}
+
+.btnContainer {
+  justify-self: center;
+  padding: 0;
+  margin-left: 0;
+}
+
+.infoBtn {
+  border: 2px solid #1677ff;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+
+.ant-col {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.card {
+  position: relative;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  min-height: 350px; 
+}
+
+.cardBackground {
+  position: relative;
+  padding: 20px;
+  color: white;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.cardLabel {
+  font-size: 36px;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  position: absolute;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.cardLabelBASIC {
+  background: linear-gradient(135deg, #00ff88, #0bb6fa);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.cardLabelEXTRA {
+  background: linear-gradient(135deg, #ff7e5f, #feb47b);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.cardLabelPRO {
+  background: linear-gradient(135deg, #ff00ea, #370175);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.stars {
+  margin-top: 30px;
+  font-size: 40px;
+}
+
+.star {
+  color: gold;
+  margin-right: 5px;
+}
+
+.card .ant-card-body {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1;
+}
+
+.priceLabel {
+  background: linear-gradient(135deg, #3700ff, #090dcf);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-size: 20px;
+  transform: translateX(45%);
+}
+
+.stars {
+  margin-top: 30px;
+}
+
+.card .ant-btn-primary {
+  background-color: #ff7e5f;
+  border-color: #ff7e5f;
+  margin-top: auto;
+}
+
+.card .ant-btn-primary:hover {
+  background-color: #feb47b;
+  border-color: #feb47b;
+}
+
+.card .ant-btn-link {
+  color: #ff7e5f;
+  font-size: 14px;
+}
+
+.card .ant-btn-link:hover {
+  color: #feb47b;
+}
+
+@media (max-width: 768px) {
+  .pricelist_container {
+    padding: 20px;
+  }
+  
+  .pricelist_container .cardBackground {
+    padding: 16px;
+  }
+
+  .card .ant-btn-primary {
+    margin-top: 20px;
+  }
+}
